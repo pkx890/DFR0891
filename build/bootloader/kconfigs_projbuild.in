@@ -1,0 +1,3 @@
+source "E:/ESP-IDF-MESH/sdk/components/bootloader/Kconfig.projbuild"
+source "E:/ESP-IDF-MESH/sdk/components/esptool_py/Kconfig.projbuild"
+source "E:/ESP-IDF-MESH/sdk/components/partition_table/Kconfig.projbuild"

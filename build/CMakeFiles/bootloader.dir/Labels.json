@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "E:/ESP-IDF-MESH/sdk/examples/peripherals/spi_slave/receiver/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "E:/ESP-IDF-MESH/sdk/examples/peripherals/spi_slave/receiver/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "E:/ESP-IDF-MESH/sdk/examples/peripherals/spi_slave/receiver/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "E:/ESP-IDF-MESH/sdk/examples/peripherals/spi_slave/receiver/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "E:/ESP-IDF-MESH/sdk/examples/peripherals/spi_slave/receiver/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "E:/ESP-IDF-MESH/sdk/examples/peripherals/spi_slave/receiver/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "E:/ESP-IDF-MESH/sdk/examples/peripherals/spi_slave/receiver/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		},
+		{
+			"file" : "E:/ESP-IDF-MESH/sdk/examples/peripherals/spi_slave/receiver/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "E:/ESP-IDF-MESH/sdk/examples/peripherals/spi_slave/receiver/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "E:/ESP-IDF-MESH/sdk/examples/peripherals/spi_slave/receiver/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}

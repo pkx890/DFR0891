@@ -1,0 +1,7 @@
+source "E:/ESP-IDF-MESH/sdk/components/efuse/Kconfig"
+source "E:/ESP-IDF-MESH/sdk/components/esp32s2/Kconfig"
+source "E:/ESP-IDF-MESH/sdk/components/esp_common/Kconfig"
+source "E:/ESP-IDF-MESH/sdk/components/esp_system/Kconfig"
+source "E:/ESP-IDF-MESH/sdk/components/log/Kconfig"
+source "E:/ESP-IDF-MESH/sdk/components/newlib/Kconfig"
+source "E:/ESP-IDF-MESH/sdk/components/spi_flash/Kconfig"

@@ -1,0 +1,20 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "E:/ESP-IDF-MESH/sdk/components/bootloader/subproject",
+    "build_dir":          "E:/ESP-IDF-MESH/sdk/examples/peripherals/spi_slave/receiver/build/bootloader",
+    "config_file":        "E:/ESP-IDF-MESH/sdk/examples/peripherals/spi_slave/receiver/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.3.1-dirty",
+    "target":             "esp32s2",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32s2-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "E:/ESP-IDF-MESH/sdk/components/efuse/Kconfig;E:/ESP-IDF-MESH/sdk/components/esp32s2/Kconfig;E:/ESP-IDF-MESH/sdk/components/esp_common/Kconfig;E:/ESP-IDF-MESH/sdk/components/esp_system/Kconfig;E:/ESP-IDF-MESH/sdk/components/log/Kconfig;E:/ESP-IDF-MESH/sdk/components/newlib/Kconfig;E:/ESP-IDF-MESH/sdk/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "E:/ESP-IDF-MESH/sdk/components/bootloader/Kconfig.projbuild;E:/ESP-IDF-MESH/sdk/components/esptool_py/Kconfig.projbuild;E:/ESP-IDF-MESH/sdk/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32s2", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "E:/ESP-IDF-MESH/sdk/components/bootloader", "E:/ESP-IDF-MESH/sdk/components/bootloader_support", "E:/ESP-IDF-MESH/sdk/components/efuse", "E:/ESP-IDF-MESH/sdk/components/esp32s2", "E:/ESP-IDF-MESH/sdk/components/esp_common", "E:/ESP-IDF-MESH/sdk/components/esp_hw_support", "E:/ESP-IDF-MESH/sdk/components/esp_rom", "E:/ESP-IDF-MESH/sdk/components/esp_system", "E:/ESP-IDF-MESH/sdk/components/esptool_py", "E:/ESP-IDF-MESH/sdk/components/hal", "E:/ESP-IDF-MESH/sdk/components/log", "E:/ESP-IDF-MESH/sdk/components/bootloader/subproject/main", "E:/ESP-IDF-MESH/sdk/components/bootloader/subproject/components/micro-ecc", "E:/ESP-IDF-MESH/sdk/components/newlib", "E:/ESP-IDF-MESH/sdk/components/partition_table", "E:/ESP-IDF-MESH/sdk/components/soc", "E:/ESP-IDF-MESH/sdk/components/spi_flash", "E:/ESP-IDF-MESH/sdk/components/xtensa", "" ]
+}
