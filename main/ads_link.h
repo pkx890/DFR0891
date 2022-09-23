@@ -1,6 +1,6 @@
 /*!
  * @file ads_link.h
- * @brief ads_link.h ¹ØÓÚÊý¾Ý´æ´¢Á´±íµÄ¶¨ÒåÎÄ¼þ
+ * @brief ads_link.h ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý´æ´¢ï¿½ï¿½ï¿½ï¿½ï¿½Ä¶ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½
  * @copyright Copyright (c) 2010 DFRobot Co.Ltd (http://www.dfrobot.com)
  * @license The MIT License (MIT)
  * @author [qsjhyy](yihuan.huang@dfrobot.com)
@@ -9,7 +9,7 @@
  */
 #pragma once
 
-#define SAVE_LIST_DATA_SIZE 1 //Êý¾Ý´æ´¢Á´±íÃ¿¸ö½ÚµãÖÐÓÐÐ§Êý¾ÝµÄ´óÐ¡
+#define SAVE_LIST_DATA_SIZE 1 //ï¿½ï¿½ï¿½Ý´æ´¢ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ï¿½ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½Ð§ï¿½ï¿½ï¿½ÝµÄ´ï¿½Ð¡
 #define LINK_SIZE (SAVE_LIST_DATA_SIZE * 3)
 
 // Power mode selection
@@ -47,21 +47,21 @@ typedef enum
 }PGA_type;
 
 /**
- * ADCÄ£¿éÅäÖÃÐÅÏ¢:
- * ADCÄ£¿éÉèÖÃ¼Ä´æÆ÷¶¨Òå
+ * ADCÄ£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢:
+ * ADCÄ£ï¿½ï¿½ï¿½ï¿½ï¿½Ã¼Ä´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  * =====================================================================================================
  * adc_module_cfg_table[0] |adc_module_cfg_table[1] |adc_module_cfg_table[2] |adc_module_cfg_table[3] |...
- *    ¹ý²ÉÑù±¶Êý£¨osr£©    |   Êý¾ÝÊä³öËÙÂÊ£¨odr£©  |         ·Ö±æÂÊ         |     ·Å´óÆ÷ÔöÒæ±¶Êý     |...
+ *    ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½osrï¿½ï¿½    |   ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê£ï¿½odrï¿½ï¿½  |         ï¿½Ö±ï¿½ï¿½ï¿½         |     ï¿½Å´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ±¶ï¿½ï¿½     |...
  * =====================================================================================================
  */
 //#define TABLE_SIZE 4
 //uint8_t adc_module_cfg_table[TABLE_SIZE];
-// ADCÄ£¿éÅäÖÃÐÅÏ¢½á¹¹Ìå
+// ADCÄ£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½á¹¹ï¿½ï¿½
 typedef struct
 {
    PWR_type pwr;
    osr_type osr;
-//   float odr;   // µ¥Î» SPS
+//   float odr;   // ï¿½ï¿½Î» SPS
    PGA_type gain_channel0;
    PGA_type gain_channel1;
    PGA_type gain_channel2;
@@ -74,10 +74,10 @@ typedef struct
 
 ads_cfg_table_t adc_module_cfg_table;
 
-// »ñÈ¡ADCÊý¾Ý, Í¨µÀxµÄÁ´±í
+// ï¿½ï¿½È¡ADCï¿½ï¿½ï¿½ï¿½, Í¨ï¿½ï¿½xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 typedef struct channelxDataLink
 {
-   // ±íÊ¾×î¶à¿ÉÒÔ´æ´¢LINK_SIZE¸öadcÊý¾Ý
+   // ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½Ô´æ´¢LINK_SIZEï¿½ï¿½adcï¿½ï¿½ï¿½ï¿½
    uint8_t data_buf[LINK_SIZE];
    struct channelxDataLink *next;
 }channelx_data_link;
